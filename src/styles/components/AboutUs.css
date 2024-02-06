@@ -1,0 +1,33 @@
+.about-us-container {
+  position: relative;
+}
+
+.about-us {
+  padding: 2rem;
+  background-color: #f8f9fa; /* Set background color */
+  border-radius: 10px; /* Add border radius for a modern look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  animation: fadeIn 1s ease-out; /* Animation for fading in */
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333; /* Set heading color */
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  color: #666; /* Set paragraph color */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Initial position above the viewport */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Final centered position */
+  }
+}
